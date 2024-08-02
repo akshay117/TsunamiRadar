@@ -25,13 +25,17 @@ Digitizer: Taurus
 
 ## Future Scope
 
-### Early Alerts: By analyzing the seismic data in real-time, we can develop systems to provide early warnings for earthquakes and other seismic events. This can help in minimizing damage and saving lives by giving people more time to take necessary precautions.
+### Early Alerts: 
+By analyzing the seismic data in real-time, we can develop systems to provide early warnings for earthquakes and other seismic events. This can help in minimizing damage and saving lives by giving people more time to take necessary precautions.
 
-### Detailed Analysis: The continuous data stream allows for in-depth analysis of seismic activities. Researchers can study patterns, identify potential fault lines, and understand the behavior of seismic waves in different regions.
+### Detailed Analysis: 
+The continuous data stream allows for in-depth analysis of seismic activities. Researchers can study patterns, identify potential fault lines, and understand the behavior of seismic waves in different regions.
 
-### Infrastructure Planning: The insights gained from seismic data can aid in planning and constructing buildings and infrastructure that are more resilient to seismic activities, thereby reducing the risk of damage.
+### Infrastructure Planning: 
+The insights gained from seismic data can aid in planning and constructing buildings and infrastructure that are more resilient to seismic activities, thereby reducing the risk of damage.
 
-### Educational Purposes: The data can be used for educational purposes, helping students and researchers understand the dynamics of seismic activities and the importance of earthquake preparedness.
+### Educational Purposes: 
+The data can be used for educational purposes, helping students and researchers understand the dynamics of seismic activities and the importance of earthquake preparedness.
 
 ## Feel free to raise PR for improvements.
 
