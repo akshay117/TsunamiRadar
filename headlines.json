@@ -1,0 +1,505 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "Stations": {
+    "Station": [
+      {
+        "stationCode": {
+          "_text": "BHPL"
+        },
+        "stationName": {
+          "_text": "Bhopal"
+        },
+        "latitude": {
+          "_text": "23.24N"
+        },
+        "longitude": {
+          "_text": "77.42E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "BHUJ"
+        },
+        "stationName": {
+          "_text": "Bhuj,Gujarat"
+        },
+        "latitude": {
+          "_text": "23.25N"
+        },
+        "longitude": {
+          "_text": "69.65E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "BOKR"
+        },
+        "stationName": {
+          "_text": "Bokaro"
+        },
+        "latitude": {
+          "_text": "23.79N"
+        },
+        "longitude": {
+          "_text": "85.88E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "CMBY"
+        },
+        "stationName": {
+          "_text": "CambellBay"
+        },
+        "latitude": {
+          "_text": "7.0N"
+        },
+        "longitude": {
+          "_text": "93.92E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "DDI"
+        },
+        "stationName": {
+          "_text": "Dehradun"
+        },
+        "latitude": {
+          "_text": "30.32N"
+        },
+        "longitude": {
+          "_text": "78.06E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "DGPR"
+        },
+        "stationName": {
+          "_text": "Diglipur"
+        },
+        "latitude": {
+          "_text": "13.25N"
+        },
+        "longitude": {
+          "_text": "92.98E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "DHRM"
+        },
+        "stationName": {
+          "_text": "Dharmashala"
+        },
+        "latitude": {
+          "_text": "32.2N"
+        },
+        "longitude": {
+          "_text": "76.3E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "GOA"
+        },
+        "stationName": {
+          "_text": "goa"
+        },
+        "latitude": {
+          "_text": "15.49N"
+        },
+        "longitude": {
+          "_text": "73.82E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "MDRS"
+        },
+        "stationName": {
+          "_text": "Chennai"
+        },
+        "latitude": {
+          "_text": "13.07N"
+        },
+        "longitude": {
+          "_text": "80.25E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "MNC"
+        },
+        "stationName": {
+          "_text": "Minicoy"
+        },
+        "latitude": {
+          "_text": "8.26N"
+        },
+        "longitude": {
+          "_text": "73.0E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "HYB"
+        },
+        "stationName": {
+          "_text": "Hyderabad"
+        },
+        "latitude": {
+          "_text": "17.42N"
+        },
+        "longitude": {
+          "_text": "78.96E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "PBA"
+        },
+        "stationName": {
+          "_text": "PortBlair"
+        },
+        "latitude": {
+          "_text": "11.67N"
+        },
+        "longitude": {
+          "_text": "92.72E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "POO"
+        },
+        "stationName": {
+          "_text": "Pune"
+        },
+        "latitude": {
+          "_text": "18.53N"
+        },
+        "longitude": {
+          "_text": "73.85E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "SHL"
+        },
+        "stationName": {
+          "_text": "Shillong"
+        },
+        "latitude": {
+          "_text": "25.57N"
+        },
+        "longitude": {
+          "_text": "91.88E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "SMLA"
+        },
+        "stationName": {
+          "_text": "Shimla"
+        },
+        "latitude": {
+          "_text": "31.13N"
+        },
+        "longitude": {
+          "_text": "77.17E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "TRVM"
+        },
+        "stationName": {
+          "_text": "Thiruvanathapuram"
+        },
+        "latitude": {
+          "_text": "8.51N"
+        },
+        "longitude": {
+          "_text": "76.96E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      },
+      {
+        "stationCode": {
+          "_text": "VISK"
+        },
+        "stationName": {
+          "_text": "Visakhapatnam"
+        },
+        "latitude": {
+          "_text": "17.75N"
+        },
+        "longitude": {
+          "_text": "83.33E"
+        },
+        "samplingRate": {
+          "_text": "100"
+        },
+        "sensorName": {
+          "_text": "Trillium240"
+        },
+        "digitizer": {
+          "_text": "Taurus"
+        },
+        "organization": {
+          "_text": "NCS"
+        },
+        "health": {
+          "_text": "Healthy"
+        }
+      }
+    ]
+  }
+}
