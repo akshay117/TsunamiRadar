@@ -23,7 +23,7 @@ jobs:
       run: |
         currentTime=$(date +%s%3N)
         echo "Current time: ${currentTime}"
-        curl -sk "https://tsunami.incois.gov.in/itews/homexmls/TSPHomeEventsTable.xml?currentTime=currentTime=${currentTime}" -o events.xml
+        curl -sk "https://tsunami.incois.gov.in/itews/homexmls/seismic.xml?currentTime=currentTime=${currentTime}" -o events.xml
         node convert-xml-to-json.js
         cat headlines.json # Output json
     - name: Commit and push if the data has changed
