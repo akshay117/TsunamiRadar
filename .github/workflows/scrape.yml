@@ -21,9 +21,11 @@ jobs:
 
     - name: Fetch latest data from the API endpoint
       run: |
-        curl -sk "https://tsunami.incois.gov.in/itews/homexmls/TSPHomeEventsTable.xml?currentTime=1722615733138" -o events.xml
+        currentTime=$(date +%s%3N)
+        echo "Current time: ${currentTime}"
+        curl -sk "https://tsunami.incois.gov.in/itews/homexmls/TSPHomeEventsTable.xml?currentTime=currentTime=${currentTime}" -o events.xml
         node convert-xml-to-json.js
-        cat headlines.json # Output the JSON content for debugging
+        cat headlines.json # Output json
     - name: Commit and push if the data has changed
       run: |-
         git config user.name "Automated"
