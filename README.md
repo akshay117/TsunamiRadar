@@ -3,9 +3,12 @@
 This repository contains data from seismic sensors located across various regions in India. The data is collected and updated every 20 minutes to provide live insights into seismic activities.The json can be taken from `headlines.json`. 
 
 ## Example data
-Station Code	Station Name	Latitude	Longitude	 Sampling Rate 	Sensor Name	   Digitizer		Health
-BHPL	        Bhopal	       23.24N   77.42E	   100 Hz	        Trillium240	   Taurus	    Healthy
-BHUJ	        Gujarat        23.25N	  69.65E	   100 Hz	        Trillium240	   Taurus	    Healthy
+
+| Station Code | Station Name | Latitude | Longitude | Sampling Rate | Sensor Name | Digitizer | Health  |
+|--------------|--------------|----------|-----------|---------------|-------------|-----------|---------|
+| BHPL         | Bhopal       | 23.24N   | 77.42E    | 100 Hz        | Trillium240 | Taurus    | Healthy |
+| BHUJ         | Gujarat      | 23.25N   | 69.65E    | 100 Hz        | Trillium240 | Taurus    | Healthy |
+
 
 ## Data Description
 
