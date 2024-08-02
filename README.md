@@ -1,4 +1,4 @@
-## TsunamiRadar
+## SeismicRadar
 
 This repository contains data from seismic sensors located across various regions in India. The data is collected and updated every 20 minutes to provide live insights into seismic activities.The json can be taken from `headlines.json`. 
 
