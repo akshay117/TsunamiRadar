@@ -24,16 +24,11 @@ jobs:
         curl -sk "https://tsunami.incois.gov.in/itews/homexmls/TSPHomeEventsTable.xml?currentTime=1722615733138" -o events.xml
         node convert-xml-to-json.js
         cat headlines.json # Output the JSON content for debugging
-
-
-    - name: Check for changes and commit
-      run: |
+    - name: Commit and push if the data has changed
+      run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
-        git add headlines.json
-        if ! git diff --cached --quiet; then
-          timestamp=$(date -u)
-          git commit -m "Latest data: ${timestamp}"
-          git push
-        else
-          echo "No changes detected"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
