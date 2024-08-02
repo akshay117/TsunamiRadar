@@ -25,6 +25,7 @@ jobs:
         node convert-xml-to-json.js
         cat headlines.json # Output the JSON content for debugging
 
+
     - name: Check for changes and commit
       run: |
         git config user.name "Automated"
