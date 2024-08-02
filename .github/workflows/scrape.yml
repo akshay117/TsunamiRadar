@@ -19,7 +19,9 @@ jobs:
     - name: Fetch latest data from the API endpoint
       run: |
         curl -s "https://tsunami.incois.gov.in/itews/homexmls/TSPHomeEventsTable.xml?currentTime=1722615733138" -o events.xml
+        cat events.xml #  for debugging
         xml2json < events.xml > headlines.json
+        cat headlines.json # Output the JSON content for debugging
 
     - name: Check for changes and commit
       run: |
