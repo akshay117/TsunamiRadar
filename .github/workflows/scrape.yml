@@ -25,7 +25,7 @@ jobs:
         echo "Current time: ${currentTime}"
         curl -sk "https://tsunami.incois.gov.in/itews/homexmls/seismic.xml?currentTime=currentTime=${currentTime}" -o events.xml
         node convert-xml-to-json.js
-        cat sensorList.json # Output json
+        cat headlines.json # Output json
     - name: Commit and push if the data has changed
       run: |-
         git config user.name "Automated"
